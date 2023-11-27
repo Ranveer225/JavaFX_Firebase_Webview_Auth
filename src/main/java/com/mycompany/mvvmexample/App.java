@@ -42,6 +42,14 @@ public class App extends Application {
     public static void main(String[] args) {
 
         launch(args);
+// In App.java
+        public void showSignInScene() {
+            setRoot("SignIn.fxml");
+        }
+
+        public void showSignUpScene() {
+            setRoot("SignUp.fxml");
+        }
 
     }
 
